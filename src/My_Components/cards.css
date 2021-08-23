@@ -1,0 +1,35 @@
+.cards  {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 2rem;
+}
+.cards ul{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+}
+.cards Img{
+    border-bottom-left-radius: 45px;
+    border-top-right-radius: 45px;
+    transition: all 0.2s ease-out;
+}
+.cards Img:hover{
+    width: 24rem;
+    cursor: pointer;
+}
+
+@media (min-width: 600px) {
+    .cards{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .cards{
+        grid-template-columns: repeat(3,1fr);
+    }
+}

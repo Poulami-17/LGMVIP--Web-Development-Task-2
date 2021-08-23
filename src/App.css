@@ -1,10 +1,11 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding:0;
+  background-color: black;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: 'Patrick Hand', cursive;
+  overflow-x: hidden;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -12,27 +13,101 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* NavBar Styling */
+.navbar_section{
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  top: 0px;
+  height: 14%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+.nav-part{
+  margin-top:0px;
+  height:100px;
+}
+.Nav-1{
+  margin-top: 23px;
+}
+.Nav-1 ul{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-right: 358px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-left: -111px;
+  margin-bottom: -101px;
+  margin-top: -82px;
+  padding-left: 57px;
+  padding-right: 18px;
+}
+.Nav-1 ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    padding: 0px;
+}
+.Nav-1 ul li a{
+  color: rgb(238, 229, 229);
+    display: block;
+    text-decoration: none;
+    padding-left:22px;
+    padding-right: 22px;
+    font-size: 30px;
+    font-family: 'Patrick Hand', cursive;
+}
+/* Navbar: Button  */
+.button{
+  height: 45px;
+  width: 116px;
+  font-size: 23px;
+  margin-left: 88%;
+  margin-top: 51px;
+  border-radius: 12px;
+  color: rgb(247, 245, 245);
+  background:#030408;
+  border: 3px solid rgb(121, 109, 109);
+  font-family: 'Patrick Hand', cursive;
+
+}
+.navbar_section button:hover{
+  background-color:rgb(33, 33, 36);
+  color: aqua;
+  cursor: pointer;
+}
+/* Navbar Heading */
+#nav-head {
+  margin-left: 4px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  padding: 26px;
+  color: rgb(252, 252, 252);
+  font-size: 50px;
+  font-family: 'Patrick Hand', cursive;
+  text-shadow: 5px 5px 5px rgba(101, 194, 218, 0.8);
+}
+
+/* Container Part */
+.container{
+  margin-top: 295px;
+  margin-left: 23px;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #071172;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-part {
+  color: crimson;
+  font-size: 2.5rem;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  font-size: 3.8rem;
+  font-family: 'Patrick Hand', cursive;
 }
+
+
+
